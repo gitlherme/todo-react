@@ -1,0 +1,47 @@
+.ToDo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ToDo small {
+  width: 75%;
+  margin: 1rem 0;
+}
+
+.ToDo input {
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: .5rem;
+  font-family: Karla, sans-serif;
+  margin: 1rem;
+}
+
+.ToDo button {
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: .5rem;
+  font-family: Karla, sans-serif;
+  background-color: crimson;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+}
+.ToDo button:hover {
+  background-color: rgb(240, 76, 109);
+}
+
+.ToDo .task {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  padding: .5rem;
+  background-color: #fff;
+  border-radius: .5rem;
+  min-width: 300px;
+}
